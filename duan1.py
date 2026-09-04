@@ -7,7 +7,7 @@ def la_so_nguyen_to(n):
             return False
 
     return True
-so = int(input("Nhập một số nguyên: "))
+so = int(input("Nhập một số nguyên tien hung: "))
 
 if la_so_nguyen_to(so):
     print(f"{so} là số nguyên tố.")
